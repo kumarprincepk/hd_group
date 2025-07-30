@@ -461,7 +461,6 @@ if ($(".sw-layout").length > 0) {
         var loop = tfSwCategories.data("loop") || true;
         var center = tfSwCategories.data("slide-center") || false;
         var intitSlide = tfSwCategories.data("init-slide") || 0;
-        var autoplay = true;
         var swiperInstance;
         function initSwiper() {
             if (swiperInstance) swiperInstance.destroy(true, true);
@@ -469,13 +468,16 @@ if ($(".sw-layout").length > 0) {
                 slidesPerView: mobile,
                 spaceBetween: spacing,
                 speed: 1000,
-                autoplay: true,
                 centeredSlides: center,
                 initialSlide: intitSlide,
-                pagination: {
-                    el: tfSwCategories.find(".sw-pagination-layout")[0],
-                    clickable: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
                 },
+                // pagination: {
+                //     el: tfSwCategories.find(".sw-pagination-layout")[0],
+                //     clickable: true,
+                // },
                 slidesPerGroup: perGroup,
                 observer: true,
                 observeParents: true,

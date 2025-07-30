@@ -12,10 +12,10 @@ if ($(".counter-scroll").length > 0) {
         if ($(".odometer").length > 0) {
             if (isElementInViewport($(".odometer"))) {
                 setTimeout(function () {
-                    $(".style-1-1").html(26);
-                    $(".style-1-2").html(4130);
-                    $(".style-1-3").html(98);
-                    $(".style-1-4").html(1780);
+                    $(".style-1-1").html(2300);
+                    $(".style-1-2").html(550);
+                    $(".style-1-3").html(525);
+                    $(".style-1-4").html(1875);
                 }, 0);
             }
         }
@@ -39,10 +39,10 @@ if ($(".counter-scroll").length > 0) {
         if ($(".odometer.style-4").length > 0) {
             if (isElementInViewport($(".odometer.style-4"))) {
                 setTimeout(function () {
-                    $(".style-4-1").html(950);
-                    $(".style-4-2").html(2);
-                    $(".style-4-3").html(470);
-                    $(".style-4-4").html(2);
+                    $(".style-4-1").html(2300);
+                    $(".style-4-2").html(550);
+                    $(".style-4-3").html(525);
+                    $(".style-4-4").html(1875);
                 }, 0);
             }
         }
