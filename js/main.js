@@ -18,7 +18,7 @@
  * animationtext
  * preloader
  **/
-
+document.body.style.fontFamily = 'MyHelvetica, sans-serif';
 (function ($) {
     ("use strict");
 

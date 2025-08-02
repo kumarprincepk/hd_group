@@ -3,6 +3,7 @@
   src:  url('fonts/icomoon06b2.eot?6ufuj');
   src:  url('fonts/icomoon06b2.eot?6ufuj#iefix') format('embedded-opentype'),
     url('fonts/icomoon06b2.ttf?6ufuj') format('truetype'),
+    url('./fonts/helvetica.ttf') format('truetype'),
     url('fonts/icomoon06b2.woff?6ufuj') format('woff'),
     url('fonts/icomoon06b2.svg?6ufuj#icomoon') format('svg');
   font-weight: normal;

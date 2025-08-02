@@ -230,7 +230,8 @@ button,
 input,
 select,
 textarea {
-  font-family: "Lexend", sans-serif;
+  /* font-family: "Lexend", sans-serif; */
+  font-family: "MyHelvetica", sans-serif;
   font-size: 14px;
   line-height: 19.6px;
   font-weight: 400;
@@ -553,7 +554,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lexend", sans-serif;
+  /* font-family: "Lexend", sans-serif; */
+  font-family: "MyHelvetica", sans-serif;
   color: var(--Heading);
   margin: 0;
   text-rendering: optimizeLegibility;
@@ -3365,7 +3367,9 @@ form label {
 
 .sib-form {
   padding: 0;
-  font-family: "Lexend", sans-serif;
+  /* font-family: "Lexend", sans-serif; */
+  font-family: "MyHelvetica", sans-serif;
+
 }
 .sib-form #sib-container,
 .sib-form .sib-form-block {
@@ -7463,7 +7467,9 @@ tr {
   position: relative;
   border: none;
   max-width: max-content;
-  font-family: "Lexend", sans-serif;
+  /* font-family: "Lexend", sans-serif; */
+  font-family: "MyHelvetica", sans-serif;
+
 }
 .map-listing-item .box-house .image-wrap {
   max-width: 310px;
@@ -8971,7 +8977,9 @@ tr {
 }
 
 .counter-item span {
-  font-family: "Lexend", sans-serif;
+  /* font-family: "Lexend", sans-serif; */
+    font-family: "MyHelvetica", sans-serif;
+
 }
 .counter-item .counter-number {
   display: -webkit-box;
