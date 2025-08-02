@@ -11569,7 +11569,7 @@ tr {
 
 .animated-line span {
   display: inline-block;
-  font-size: clamp(2rem, 8vw, 7rem);
+  font-size: clamp(2rem, 8vw, 9rem);
   font-weight: 300;
   color: white;
   opacity: 0;
