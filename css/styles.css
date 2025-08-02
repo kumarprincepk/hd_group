@@ -8419,6 +8419,8 @@ tr {
 }
 .agent-item .image-wrap > a img {
   width: 100%;
+    /* width: 38vw;
+    height: 38vh; */
 }
 .agent-item .content {
   display: -webkit-box;
