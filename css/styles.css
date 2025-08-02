@@ -11547,8 +11547,54 @@ tr {
   width: 100%;
   height: 100%;
   left: 0;
-  top:4px;
+  top: 4px;
+  overflow: hidden;
 }
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.animated-line {
+  white-space: nowrap;
+  display: block;
+}
+
+.animated-line span {
+  display: inline-block;
+  font-size: clamp(2rem, 8vw, 7rem);
+  font-weight: 300;
+  color: white;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease-out forwards;
+  animation-delay: calc(var(--i) * 0.1s);
+}
+
+.animated-line + .animated-line {
+  margin-top: clamp(1rem, 2vw, 2.5rem);
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
 
 .page-title.home02 video {
   object-fit: cover;
@@ -13122,6 +13168,14 @@ tr {
   flex-direction: column;
   align-items: center;
   gap: 12px;
+  animation: fadeIn 1s ease 1.5s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 .ui-banner__scrollButtonScrollbar {
